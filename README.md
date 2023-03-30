@@ -1,0 +1,5 @@
+- build.sh
+- run.sh
+- `certbot certonly --standalone -d YOUR_URL --agree-tos -m YOUR_EMAIL`
+- Repeat as necessary
+- `docker cp certbot:/etc/letsencrypt/archive/ .`
